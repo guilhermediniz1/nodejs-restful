@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-restful",
+  "version": "1.0.0",
+  "description": "Implementação de uma API RESTFul utilizando nodejs para fins acadêmicos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Guilherme Diniz Láu",
+  "license": "ISC"
+}
