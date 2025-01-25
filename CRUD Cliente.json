@@ -1,0 +1,130 @@
+{
+  "info": {
+    "name": "CRUD Cliente",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "bruno",
+      "event": []
+    },
+    {
+      "name": "Create",
+      "event": [],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/clientes",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "clientes"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "// {\n//   \"nome\": \"Guilherme Diniz\", \n//   \"email\": \"guilhermedinizlau@gmail.com\", \n//   \"telefone\": \"22997602954\", \n//   \"endereco\": \"Rua Marechal Floriano, 153, Nova Alegre - Alegre - ES\", \n//   \"data_nascimento\": \"09/08/2002\"\n// }\n\n{\n  \"nome\": \"Marcos José Torres\", \n  \"email\": \"marcostorre@gmail.com\", \n  \"telefone\": \"22111111123\", \n  \"endereco\": \"Rua Arnaldo Cruz, 121, Centro - Alegre - ES\", \n  \"data_nascimento\": \"01/02/2002\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Read",
+      "event": [],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/clientes/2",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "clientes",
+            "2"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "Update",
+      "event": [],
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/clientes/2",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "clientes",
+            "2"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nome\": \"Marcos José Paiva\", \n  \"email\": \"marcostorre@gmail.com\", \n  \"telefone\": \"22111111123\", \n  \"endereco\": \"Rua Arnaldo Cruz, 121, Centro - Alegre - ES\", \n  \"data_nascimento\": \"01/02/2002\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Delete",
+      "event": [],
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "auth": {
+          "type": "noauth"
+        },
+        "description": "",
+        "url": {
+          "raw": "http://localhost:3000/clientes/2",
+          "protocol": "http",
+          "host": [
+            "localhost:3000"
+          ],
+          "path": [
+            "clientes",
+            "2"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    }
+  ],
+  "variable": []
+}
